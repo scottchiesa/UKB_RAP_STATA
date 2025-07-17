@@ -40,7 +40,7 @@ You will then be prompted to enter the serial number, code, authorization key, a
 #Input First Line Registration         ## as this is a site licence, 'University College London' should go here ##
 #Input Input Second Line Registration   ## this should be 'London', at which point you'll be prompted to press y for yes ##
 ```
-Then you need to install some more things for it to work
+After confirmation that these have been accepted, continue to run the following lines below in sequence.
 ```
 apt update
 apt install libtinfo5
@@ -51,5 +51,15 @@ apt-get install nodejs -y
 jupyter labextension install jupyterlab-stata-highlight
 rm Stata18Linux.tar.gz
 ```
+## 5. Run the Config File
 
+Copy the file from this repository called 'STATA_config.ipynb' to your project directory and then run within the active notebook.
+
+## 6. Create a Snapshot
+
+Click DNAnexus > Create Snapshot to save everything that has been done to the '/.Notebook_snapshots' folder in your project directory. Name something meaningful like 'Stata Installation'.
+
+## 6. Run Stata
+
+Return to the Notebook window and you should now see an icon for Stata.
 
