@@ -38,7 +38,7 @@ You will then be prompted to enter the serial number, code, authorization key, a
 #Enter code
 #Enter authorisation                   ## this will be followed by two prompts where you should press y for yes ##
 #Input First Line Registration         ## as this is a site licence, 'University College London' should go here ##
-#Input Input Secnd Line Registration   ## this should be 'London', at which point you'll be prompted to press y for yes ##
+#Input Input Second Line Registration   ## this should be 'London', at which point you'll be prompted to press y for yes ##
 ```
 Then you need to install some more things for it to work
 ```
