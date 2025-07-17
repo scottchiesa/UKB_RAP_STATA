@@ -59,11 +59,14 @@ Copy the file from this repository called 'STATA_config.ipynb' to your project d
 
 Stata should now be available to run using an icon within the Notebook Launcher
 
+![Notebook Launcher Window](notebooklauncher.jpg)
 
-
-## 6. Create a Snapshot
+## 7. Save Installation
 
 Click DNAnexus > Create Snapshot to save everything that has been done to the '/.Notebook_snapshots' folder in your project directory. Name something meaningful like 'Stata Installation'.
+
+## 8. How to Access Stata again in future sessions
+
 
 
 
