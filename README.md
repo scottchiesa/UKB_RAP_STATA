@@ -28,9 +28,28 @@ mkdir stata18
 cd stata18
 dx download /path/to/Stata18Linux64.tar.gz
 tar -xzvf Stata18Linux64.tar.gz
-./install      ## this will be followed by two prompts where you should press y for yes##
+./install                              ## this will be followed by two prompts where you should press y for yes ##
 export PATH=/usr/local/stata18:$PATH
-./stinit      ## this also will be followed by two prompts where you should press y for yes##
+./stinit                               ## this also will be followed by two prompts where you should press y for yes ##
+```
+You will then be prompted to enter the serial number, code, authorization key, and registration details for Stata 18. These can all be found at https://swdb.ucl.ac.uk/ under the 'Downloads' tab on the Stata page.
+```
+#Enter serial number
+#Enter code
+#Enter authorisation                   ## this will be followed by two prompts where you should press y for yes ##
+#Input First Line Registration         ## as this is a site licence, 'University College London' should go here ##
+#Input Input Secnd Line Registration   ## this should be 'London', at which point you'll be prompted to press y for yes ##
+```
+Then you need to install some more things for it to work
+```
+apt update
+apt install libtinfo5
+apt install libncurses5
+pip3 install stata_kernel
+python3 -m stata_kernel.install
+apt-get install nodejs -y
+jupyter labextension install jupyterlab-stata-highlight
+rm Stata18Linux.tar.gz
 ```
 
 
