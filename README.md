@@ -55,11 +55,15 @@ rm Stata18Linux.tar.gz
 
 Copy the file from this repository called 'STATA_config.ipynb' to your project directory and then run within the active notebook.
 
+## 6. Check Stata Successfully Installed
+
+Stata should now be available to run using an icon within the Notebook Launcher
+
+
+
 ## 6. Create a Snapshot
 
 Click DNAnexus > Create Snapshot to save everything that has been done to the '/.Notebook_snapshots' folder in your project directory. Name something meaningful like 'Stata Installation'.
 
-## 6. Run Stata
 
-Return to the Notebook window and you should now see an icon for Stata.
 
