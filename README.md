@@ -67,6 +67,6 @@ Click DNAnexus > Create Snapshot to save everything that has been done to the '/
 
 ## 8. How to Access Stata again in future sessions
 
-
+Open Jupyterlab Notebook as described before in Section 3, except this time select the 'Stata Installation' snapshot file in the optional snapshot box when starting the project. Once the project runs, once again run the 'STATA_config.ipynb' file, and then Stata should be available to run again.
 
 
