@@ -14,7 +14,7 @@ This can be done by using the Add > File button within the project.
 
 ## 3. Start a JupyterLab Job
 
-Open the below dialogue box by going to Tools > JupyterLab. Rename job to something meaningful (like Install_STATA for example), assign it to your UKB project, and then In Feature, select "PYTHON_R". Click 'Start Environment'. 
+Open the below dialogue box by going to Tools > JupyterLab. Rename job to something meaningful (like Install_STATA for example), assign it to your UKB project, and then in the Feature tab, select "PYTHON_R". Click 'Start Environment'. 
 
 ![Jupyter Lab Job Screen](Jupyterlabjob.jpg)
 
