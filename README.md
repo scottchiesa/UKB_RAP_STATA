@@ -10,7 +10,7 @@ Go to https://download.stata.com/download and select "64-bit Stata for Linux on 
 
 ## 2. Upload this file to your UKB-RAP project
 
-This can be done by using the Add > File bottom within the project.
+This can be done by using the Add > File button within the project.
 
 ## 3. Start a JupyterLab Job
 
