@@ -10,4 +10,4 @@ Go to https://download.stata.com/download and select "64-bit Stata for Linux on 
 
 ## 2. 
 
-<img src = "https://github.com/scottchiesa/UKB_RAP_STATA/blob/patch-1/Jupyterlabjob.jpeg">
+![Jupyter Lab Job Screen](Jupyterlabjob.jpeg)
