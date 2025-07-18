@@ -23,7 +23,7 @@ Open the below dialogue box by going to Tools > JupyterLab. Rename job to someth
 Once inside JupyterLab, open a terminal window and execute the code below in sequence
 
 ```
-cd usr/local
+cd /usr/local
 mkdir stata18
 cd stata18
 dx download /path/to/Stata18Linux64.tar.gz
