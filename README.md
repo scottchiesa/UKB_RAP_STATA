@@ -32,7 +32,7 @@ tar -xzvf StataNow19Linux64.tar.gz
 export PATH=/usr/local/stata19:$PATH
 ./stinit                               ## this also will be followed by two prompts where you should press y for yes ##
 ```
-You will then sequentially be prompted to enter the serial number, code, authorization key, and registration details for Stata 18. These can all be found at https://swdb.ucl.ac.uk/ where you downloaded the original file.
+You will then sequentially be prompted to enter the serial number, code, authorization key, and registration details for Stata 19. These can all be found at https://swdb.ucl.ac.uk/ where you downloaded the original file.
 ```
 #Enter serial number
 #Enter code
