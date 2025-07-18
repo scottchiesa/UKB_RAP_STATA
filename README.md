@@ -6,7 +6,7 @@ The below instructions allow you to install a kernel for Stata 19 on the RAP whc
 
 ## 1. Download Stata to your local machine
 
-Go to https://swdb.ucl.ac.uk/ and download the file called "Stata MP2 19 Linux". This will download a file called "StataNow19Linux64.tar.gz" to your computer.
+Go to https://swdb.ucl.ac.uk/ and download the version of Stata titled "Stata MP2 19 Linux". This will download a file called "StataNow19Linux64.tar.gz" to your computer.
 
 ## 2. Upload this file to your UKB-RAP project
 
