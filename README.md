@@ -1,8 +1,8 @@
 # How to Install Stata 19 on the UKB RAP
 
-Stata can be used on the RAP for analysing UK Biobank data provided you have an active licence. Unfortunately, the built-in version of Stata on the RAP is v16 whereas UCL licences are v17+.
+Stata can be used on the RAP for analysing UK Biobank data provided you have your own active licence for its use. Unfortunately, the built-in version of Stata on the RAP is v16 whereas all available UCL licences are v17+.
 
-The below instructions allow you to install a kernel for Stata 19 on the RAP whch is linked to the licensed version of Stata on your local machine, thereby letting you run Stata commands through a Jupyter Notebook.   
+The below instructions allow you to install a kernel for Stata 19 on the RAP whch is linked to your own UCL-licensed version of Stata on your local machine. After installation, you can run Stata commands on the RAP through a Jupyter Notebook.   
 
 ## 1. Download Stata to your local machine
 
@@ -60,6 +60,8 @@ Copy the file from this repository called 'STATA_config.ipynb' to your project d
 Stata should now be available to run using an icon within the Notebook Launcher
 
 ![Notebook Launcher Window](notebooklauncher.jpg)
+
+![Example Working Stata Do File](statado.jpg)
 
 ## 7. Save Installation
 
