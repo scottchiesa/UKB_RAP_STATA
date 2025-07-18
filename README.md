@@ -6,7 +6,7 @@ The below instructions allow you to install Stata 18 on the RAP and then link it
 
 ## 1. Download Stata to your local machine
 
-Go to https://download.stata.com/download and select "64-bit Stata for Linux on x86-64". This will download a file called "Stata18Linux64.tar.gz" to your computer.
+Go to https://swdb.ucl.ac.uk/ and download the file called "Stata MP2 18 Linux". This will download a file called "Stata18Linux64.tar.gz" to your computer.
 
 ## 2. Upload this file to your UKB-RAP project
 
