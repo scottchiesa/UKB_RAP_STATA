@@ -1,4 +1,4 @@
-# How to Install Stata 18 on the UKB RAP
+# How to Install Stata 19 on the UKB RAP
 
 Stata can be used on the RAP for analysing UK Biobank data provided you have an active licence. Unfortunately, the built-in version of Stata on the RAP is v16 whereas UCL licences are v17+.
 
@@ -6,7 +6,7 @@ The below instructions allow you to install Stata 18 on the RAP and then link it
 
 ## 1. Download Stata to your local machine
 
-Go to https://swdb.ucl.ac.uk/ and download the file called "Stata MP2 18 Linux". This will download a file called "Stata18Linux64.tar.gz" to your computer.
+Go to https://swdb.ucl.ac.uk/ and download the file called "Stata MP2 19 Linux". This will download a file called "Stata19Linux64.tar.gz" to your computer.
 
 ## 2. Upload this file to your UKB-RAP project
 
@@ -24,12 +24,12 @@ Once inside JupyterLab, open a terminal window and execute the code below in seq
 
 ```
 cd /usr/local
-mkdir stata18
-cd stata18
-dx download /path/to/Stata18Linux64.tar.gz
-tar -xzvf Stata18Linux64.tar.gz
+mkdir stata19
+cd stata19
+dx download /path/to/Stata19Linux64.tar.gz
+tar -xzvf Stata19Linux64.tar.gz
 ./install                              ## this will be followed by two prompts where you should press y for yes ##
-export PATH=/usr/local/stata18:$PATH
+export PATH=/usr/local/stata19:$PATH
 ./stinit                               ## this also will be followed by two prompts where you should press y for yes ##
 ```
 You will then sequentially be prompted to enter the serial number, code, authorization key, and registration details for Stata 18. These can all be found at https://swdb.ucl.ac.uk/ where you downloaded the original file.
@@ -49,7 +49,7 @@ pip3 install stata_kernel
 python3 -m stata_kernel.install
 apt-get install nodejs -y
 jupyter labextension install jupyterlab-stata-highlight
-rm Stata18Linux.tar.gz
+rm Stata19Linux.tar.gz
 ```
 ## 5. Run the Config File
 
