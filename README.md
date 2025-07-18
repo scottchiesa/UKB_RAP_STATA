@@ -1,8 +1,8 @@
 # How to Install Stata 18 on the UKB RAP
 
-Stata can be used on the RAP for analysing UK Biobank data provided you have an active licence. Unfortunately the built-in version of Stata on the RAP is v16, whereas UCL licences are v17+.
+Stata can be used on the RAP for analysing UK Biobank data provided you have an active licence. Unfortunately, the built-in version of Stata on the RAP is v16 whereas UCL licences are v17+.
 
-The below instructions allow you to install Stata 18 on the RAP and link it to an existing UCL Stata18 licence for use.
+The below instructions allow you to install Stata 18 on the RAP and then link it to an existing UCL Stata18 licence for use.
 
 ## 1. Download Stata to your local machine
 
