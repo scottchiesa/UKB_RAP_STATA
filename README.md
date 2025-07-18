@@ -57,7 +57,7 @@ Copy the file from this repository called 'STATA_config.ipynb' to your project d
 
 ## 6. Check Stata Successfully Installed
 
-Stata should now be available to run using an icon within the Notebook Launcher
+Stata should now be available to run using an icon that will now had appeared within the Notebook Launcher
 
 ![Notebook Launcher Window](notebooklauncher.jpg)
 
