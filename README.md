@@ -6,7 +6,7 @@ The below instructions allow you to install Stata 18 on the RAP and then link it
 
 ## 1. Download Stata to your local machine
 
-Go to https://swdb.ucl.ac.uk/ and download the file called "Stata MP2 19 Linux". This will download a file called "Stata19Linux64.tar.gz" to your computer.
+Go to https://swdb.ucl.ac.uk/ and download the file called "Stata MP2 19 Linux". This will download a file called "StataNow19Linux64.tar.gz" to your computer.
 
 ## 2. Upload this file to your UKB-RAP project
 
@@ -26,8 +26,8 @@ Once inside JupyterLab, open a terminal window and execute the code below in seq
 cd /usr/local
 mkdir stata19
 cd stata19
-dx download /path/to/Stata19Linux64.tar.gz
-tar -xzvf Stata19Linux64.tar.gz
+dx download /path/to/StataNow19Linux64.tar.gz
+tar -xzvf StataNow19Linux64.tar.gz
 ./install                              ## this will be followed by two prompts where you should press y for yes ##
 export PATH=/usr/local/stata19:$PATH
 ./stinit                               ## this also will be followed by two prompts where you should press y for yes ##
@@ -49,7 +49,7 @@ pip3 install stata_kernel
 python3 -m stata_kernel.install
 apt-get install nodejs -y
 jupyter labextension install jupyterlab-stata-highlight
-rm Stata19Linux.tar.gz
+rm StataNow19Linux.tar.gz
 ```
 ## 5. Run the Config File
 
