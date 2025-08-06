@@ -53,7 +53,7 @@ rm StataNow19Linux.tar.gz
 ```
 ## 5. Run the Config File
 
-Copy the file from this repository called 'STATA_config.ipynb' to your project directory and then run within the active notebook.
+Copy the file from this GitHub repository called 'STATA_config.ipynb' to your project directory and then run within the active notebook.
 
 ## 6. Check Stata Successfully Installed
 
